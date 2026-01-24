@@ -1120,16 +1120,6 @@ export default function Home() {
                     {selectedDefinition.description}
                   </p>
                 </div>
-                {selectedDefinition.why && (
-                  <div className="bg-green-50 p-6 rounded-lg border-l-8 border-green-500">
-                    <p className="text-sm font-bold mb-2 text-green-700">
-                      어떻게 해결
-                    </p>
-                    <p className="text-xl text-gray-900">
-                      {selectedDefinition.why}
-                    </p>
-                  </div>
-                )}
               </div>
 
               <div className="mb-10">
